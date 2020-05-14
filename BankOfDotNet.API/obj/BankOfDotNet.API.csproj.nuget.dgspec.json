@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\.Net Core\\Identity Server 4\\BankOfDotNet\\BankOfDotNet.API\\BankOfDotNet.API.csproj": {}
+    "E:\\Interview_Hands_On\\ASP.Net_Core_Web_Api\\Identity Server 4\\.Net-Core-Identity-Server-4\\BankOfDotNet.API\\BankOfDotNet.API.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\.Net Core\\Identity Server 4\\BankOfDotNet\\BankOfDotNet.API\\BankOfDotNet.API.csproj": {
+    "E:\\Interview_Hands_On\\ASP.Net_Core_Web_Api\\Identity Server 4\\.Net-Core-Identity-Server-4\\BankOfDotNet.API\\BankOfDotNet.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\.Net Core\\Identity Server 4\\BankOfDotNet\\BankOfDotNet.API\\BankOfDotNet.API.csproj",
+        "projectUniqueName": "E:\\Interview_Hands_On\\ASP.Net_Core_Web_Api\\Identity Server 4\\.Net-Core-Identity-Server-4\\BankOfDotNet.API\\BankOfDotNet.API.csproj",
         "projectName": "BankOfDotNet.API",
-        "projectPath": "D:\\Projects\\.Net Core\\Identity Server 4\\BankOfDotNet\\BankOfDotNet.API\\BankOfDotNet.API.csproj",
-        "packagesPath": "C:\\Users\\shiva.kv\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\.Net Core\\Identity Server 4\\BankOfDotNet\\BankOfDotNet.API\\obj\\",
+        "projectPath": "E:\\Interview_Hands_On\\ASP.Net_Core_Web_Api\\Identity Server 4\\.Net-Core-Identity-Server-4\\BankOfDotNet.API\\BankOfDotNet.API.csproj",
+        "packagesPath": "C:\\Users\\SHIVA\\.nuget\\packages\\",
+        "outputPath": "E:\\Interview_Hands_On\\ASP.Net_Core_Web_Api\\Identity Server 4\\.Net-Core-Identity-Server-4\\BankOfDotNet.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\shiva.kv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SHIVA\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -26,7 +27,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://aznnuget.aezion.local/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,6 +43,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.CodeAnalysis.CSharp.Workspaces": {
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.0.0, )"
@@ -57,15 +61,15 @@
               "target": "Package",
               "version": "[3.0.0, )"
             },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[3.1.2, )"
-            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.2, )"
             }
           },
           "imports": [
@@ -86,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
